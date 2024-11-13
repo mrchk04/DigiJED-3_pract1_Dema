@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">DigiJED-3 pract1 Dema</string>
+    <string name="take_picture">Take picture</string>
+    <string name="send_picture">Send picture</string>
 </resources>

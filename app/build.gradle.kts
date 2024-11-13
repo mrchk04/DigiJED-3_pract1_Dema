@@ -5,7 +5,7 @@ plugins {
 
 android {
     namespace = "com.example.digijed_3pract1dema"
-    compileSdk = 34
+    compileSdk = 35
 
     defaultConfig {
         applicationId = "com.example.digijed_3pract1dema"
@@ -30,6 +30,11 @@ android {
         sourceCompatibility = JavaVersion.VERSION_1_8
         targetCompatibility = JavaVersion.VERSION_1_8
     }
+
+    buildFeatures{
+        viewBinding = true
+    }
+
     kotlinOptions {
         jvmTarget = "1.8"
     }
